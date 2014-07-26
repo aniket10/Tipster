@@ -19,6 +19,8 @@
 		E2A04209198362420069E1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A041F1198362420069E1D4 /* UIKit.framework */; };
 		E2A04211198362420069E1D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2A0420F198362420069E1D4 /* InfoPlist.strings */; };
 		E2A04213198362420069E1D4 /* tipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A04212198362420069E1D4 /* tipsterTests.m */; };
+		E2A0421F1983648B0069E1D4 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A0421D1983648B0069E1D4 /* TipViewController.m */; };
+		E2A042201983648B0069E1D4 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A0421E1983648B0069E1D4 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E2A0420E198362420069E1D4 /* tipsterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipsterTests-Info.plist"; sourceTree = "<group>"; };
 		E2A04210198362420069E1D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2A04212198362420069E1D4 /* tipsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipsterTests.m; sourceTree = "<group>"; };
+		E2A0421C1983648B0069E1D4 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		E2A0421D1983648B0069E1D4 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		E2A0421E1983648B0069E1D4 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				E2A041FC198362420069E1D4 /* AppDelegate.h */,
 				E2A041FD198362420069E1D4 /* AppDelegate.m */,
+				E2A0421C1983648B0069E1D4 /* TipViewController.h */,
+				E2A0421D1983648B0069E1D4 /* TipViewController.m */,
+				E2A0421E1983648B0069E1D4 /* TipViewController.xib */,
 				E2A041FF198362420069E1D4 /* Images.xcassets */,
 				E2A041F4198362420069E1D4 /* Supporting Files */,
 			);
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A042201983648B0069E1D4 /* TipViewController.xib in Resources */,
 				E2A041F8198362420069E1D4 /* InfoPlist.strings in Resources */,
 				E2A04200198362420069E1D4 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A041FE198362420069E1D4 /* AppDelegate.m in Sources */,
+				E2A0421F1983648B0069E1D4 /* TipViewController.m in Sources */,
 				E2A041FA198362420069E1D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +375,7 @@
 				GCC_PREFIX_HEADER = "tipster/tipster-Prefix.pch";
 				INFOPLIST_FILE = "tipster/tipster-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,6 +389,7 @@
 				GCC_PREFIX_HEADER = "tipster/tipster-Prefix.pch";
 				INFOPLIST_FILE = "tipster/tipster-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
